@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Top header start*/
+.nav-manu ul {
+  display: flex;
+}
+.nav-manu ul li a {
+  text-decoration: none;
+  color: #969595;
+}
+.nav-manu ul li {
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 35px;
+  padding: 10px;
+}
+.btn-outline-primary {
+  color: #007bff;
+  margin-top: 35px;
+}
+/*Top header end*/
+
+/*header part start*/
+.header {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.header h1 {
+  color: #ffc178;
+  font-size: 40px;
+}
+.btn-outline-primary {
+  color: #007bff;
+  margin-top: 20px;
+}
+
+/*header part end*/
+
+/*Section1 Start*/
+
+.header1 {
+  color: #252c3a;
+  text-align: center;
+  margin-top: 30px;
+}
+.header1 h4 {
+  font-size: 40pt;
+}
+/*Section1 end */
+
+/*Section3 start */
+.uni img {
+  width: 500px;
+  height: 400px;
+}
+.uni {
+  margin-top: 40px;
+}
+.uni1 img {
+  padding: 15px;
+}
+.uni1 {
+  margin-top: 40px;
+}
+/*Section3 end */
+
+/*services start*/
+.header2 {
+  text-align: center;
+  margin-top: 40px;
+}
+.card,
+card-body:hover {
+  box-shadow: 5px 10px 15px 1px black;
+  margin-top: 70px;
+}
+/*services end*/
+
+/*footer start*/
+.contain {
+  background-color: #252c3a;
+  margin-top: 80px;
+}
+.social {
+  padding: 15px 0px;
+  margin-top: 20px;
+}
+
+.social ul li a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+.social p {
+  color: #969595;
+}
+.fid {
+  margin-top: 40px;
+}
+.fid h5 {
+  color: white;
+}
+.fid ul li {
+  color: #969595;
+  list-style-type: none;
+}
+.fid1 {
+  margin-top: 40px;
+}
+.fid1 h5 {
+  color: white;
+}
+
+.fid1 ul li {
+  color: #969595;
+  list-style-type: none;
+}
+.fid2 {
+  margin-top: 40px;
+}
+.fid2 h4 {
+  color: white;
+}
+.fid2 p {
+  color: #969595;
+}
+.fid2 button {
+  background-color: #ffc178;
+}
+
+/*footer end*/
+
+/*Footer2 part start*/
+.contain1 {
+  background-color: #1d232d;
+  padding: 5px;
+}
+.fot1 {
+  color: #969595;
+  margin-top: 23px;
+}
+.nav ul li {
+  color: #969595;
+  list-style-type: none;
+  padding: 20px;
+}
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+/*Footer2 part start*/
+
+@media screen and (max-width: 600px) {
+  ul.nav-manu li a {
+    float: none;
+  }
+}
